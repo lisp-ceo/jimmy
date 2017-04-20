@@ -5,3 +5,13 @@
     - Carriage-return-buffered input
   - `tcsetattr`/`tcgetattr`
     - Edit terminal features
+- Errors
+  - `errno`
+  - `perror`
+- Macro functions
+- VT100 escape sequences
+  - http://vt100.net/docs/vt100-ug/chapter3.html
+  - ncurses supports more via querying the terminfo database to work out supported capabilities
+- `sys/ioctl.h`
+  - Terminal window size operations
+-
