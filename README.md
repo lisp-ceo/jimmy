@@ -14,4 +14,4 @@
   - ncurses supports more via querying the terminfo database to work out supported capabilities
 - `sys/ioctl.h`
   - Terminal window size operations
--
+- `free`, `realloc`, `memcpy`
