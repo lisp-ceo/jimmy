@@ -1,5 +1,7 @@
-# my-own-editor
-- http://www.viewsourcecode.org/snaptoken/kilo/01.setup.html
+# jimmy editor
+
+First came vi, then emacs, then jimmy - the extensible file editor.
+
 - Terminals
   - Raw vs cannonical mode
     - Carriage-return-buffered input
@@ -15,3 +17,11 @@
 - `sys/ioctl.h`
   - Terminal window size operations
 - `free`, `realloc`, `memcpy`
+- Feature testing macros
+  - https://www.gnu.org/software/libc/manual/html_node/Feature-Test-Macros.html
+  - `gcc -ansi` includes only C library features unless explicitly request by feature macros
+    - larger standards will clobber eachother's function names
+  - preprocessor directives declare dependencies in a self-contained way
+    - for each macro defined, the compiler makes more facilites available
+    -
+
